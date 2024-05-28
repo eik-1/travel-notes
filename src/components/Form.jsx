@@ -10,7 +10,7 @@ import BackButton from "./BackButton";
 import { useUrlPosition } from "../hooks/useUrlPosition";
 import Message from "./Message";
 import Spinner from "./Spinner";
-import { useCities } from "../contexts/CitiesContext";
+import { useCities } from "../contexts/CitiesContext.jsx";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
@@ -83,7 +83,7 @@ function Form() {
       position: { lat, lng },
     };
     await createCity(newCity);
-    navigate(-1);
+    navigate("/app/cities");
   }
 
   if (isLoadingGeocoding) return <Spinner />;

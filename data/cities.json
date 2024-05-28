@@ -23,6 +23,30 @@
         "lat": "51.59754765771458",
         "lng": "9.854736328125002"
       }
+    },
+    {
+      "id": "21e4",
+      "cityName": "Colonie",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-05-05T11:15:41.001Z",
+      "notes": "Best City In US",
+      "position": {
+        "lat": "42.68394968553076",
+        "lng": "-73.75534057617189"
+      }
+    },
+    {
+      "id": "5619",
+      "cityName": "Dehra Dun",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-05-28T07:09:19.554Z",
+      "notes": "",
+      "position": {
+        "lat": "30.315987718557867",
+        "lng": "78.06884765625001"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 
 import styles from "./City.module.css";
-import { useCities } from "../contexts/CitiesContext";
+import { useCities } from "../contexts/CitiesContext.jsx";
 import BackButton from "./BackButton";
 import Spinner from "./Spinner";
 
@@ -20,7 +20,7 @@ function City() {
 
   useEffect(() => {
     getCity(id);
-  }, [id]);
+  }, [id, getCity]);
 
   const flagemojiToPNG = (flag) => {
     var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
